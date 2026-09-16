@@ -29,8 +29,9 @@ Multiple Linear Regression, trained with an 80/20 train-test split.
 - R² Score: ~0.78
 
 ## Prediction App
-A simple form (built with ipywidgets in the notebook) takes age, gender, 
-BMI, children, smoker status, and region, and returns an estimated cost.
+A Streamlit web app takes age, gender, BMI, children, smoker status, 
+and region as input, and returns an estimated insurance cost using the 
+trained model.
 
 ## Limitations
 Linear Regression assumes straight-line relationships and can't fully 
